@@ -60,7 +60,8 @@ p{
     color: var(--neutralTransparentWhite);
     font-family: var(--fontLexendDeca);
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.7;
+    
 }
 
 /* Container */
@@ -85,8 +86,8 @@ p{
 
 .card1{
     background-color: var(--primaryBrightOrange);
-    border-bottom-left-radius: .5rem;
-    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .8rem;
+    border-top-left-radius: .8rem;
 }
 
 .card2{
@@ -95,8 +96,8 @@ p{
 
 .card3{
     background-color: var(--primaryVeryDarkCyan);
-    border-bottom-right-radius: .5rem;
-    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .8rem;
+    border-top-right-radius: .8rem;
 }
 
 
@@ -110,6 +111,7 @@ p{
 /* Buttons */
 
 .card__btn{
+    background-color: var(--neutralVeryLightGray);
     margin-top: 8rem;
     padding: 1.5rem 3rem;
     border: none;
