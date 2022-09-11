@@ -48,7 +48,8 @@ body{
 
 
 .container{
-    width: 100rem;
+    margin-top: 1rem;
+    width: 90rem;
     height: 50rem;
     background-color: aquamarine;
 }
