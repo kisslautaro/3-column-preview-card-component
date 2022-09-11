@@ -1,0 +1,57 @@
+:root{
+    /* Colors */
+
+    /* Primary */
+
+    --priamryBrightOrange:hsl(31, 77%, 52%);
+    --primaryDarkCyan:hsl(184, 100%, 22%);
+    --priamryVeryDarkCyan:hsl(179, 100%, 13%);
+
+
+    /* Neutral */
+    /* (paragraphs) */
+    --neutralTransparentWhite:hsla(0, 0%, 100%, 0.75);   
+    /* (background, headings, buttons) */
+    --neutralVeryLightGray:hsl(0, 0%, 95%);
+
+    /* Fonts */
+
+    --fontLexendDeca:'Lexend Deca', sans-serif;
+    --fontBigShouldersDisplay:'Big Shoulders Display', cursive;
+
+
+}
+
+/* Global */
+
+html{
+    box-sizing: border-box;
+    font-size:  62.5%;
+    height: 100%;
+    
+}
+
+*, *:before, *:after{
+    box-sizing: inherit;
+
+}
+
+
+body{
+    font-size: 1.5rem;
+    height: 100vh;
+    background-color: var(--neutralVeryLightGray) ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 120rem;
+    height: 60rem;
+    background-color: aquamarine;
+}
+
+
+
