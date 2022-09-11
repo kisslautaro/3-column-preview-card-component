@@ -103,15 +103,15 @@ p{
 .card1,
 .card2,
 .card3{
-    padding: 5rem;    
+    padding: 5rem 5rem 0 5rem;    
 }
 
 
 /* Buttons */
 
 .card__btn{
-    margin-top: 4rem;
-    padding: 2rem 4rem;
+    margin-top: 6rem;
+    padding: 1.5rem 3rem;
     border: none;
     border-radius: 5rem;
     font-family: var(--fontLexendDeca);
